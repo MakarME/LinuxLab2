@@ -1,0 +1,106 @@
+{
+  "id": 123,
+  "title": "Root Object",
+  "username": "bob",
+  "profile": {
+    "title": "Alice",
+    "age": 30,
+    "display_name": "Ali",
+    "aliases": [
+      "Al",
+      "Aly"
+    ],
+    "meta": {
+      "name": 6009,
+      "title": "Already title"
+    }
+  },
+  "items": [
+    {
+      "title": "Item One",
+      "qty": 1
+    },
+    {
+      "title": "",
+      "qty": 2
+    },
+    {
+      "name": null
+    },
+    {
+      "Name": "Case Sensitive"
+    },
+    {
+      "title": "    spaced"
+    },
+    {
+      "title": "привіт"
+    },
+    {
+      "title": "with \"escaped\" quotes"
+    },
+    {
+      "title": "line\nbreak"
+    }
+  ],
+  "array_mixed": [
+    "one",
+    "name",
+    "three",
+    {
+      "inner": [
+        {
+          "title": "Deep"
+        },
+        {
+          "name": false
+        },
+        {
+          "x": "y"
+        }
+      ]
+    }
+  ],
+  "deep": {
+    "a": {
+      "b": {
+        "c": {
+          "title": "deepest"
+        }
+      }
+    }
+  },
+  "collection": [
+    [
+      {
+        "title": "nested array level 2"
+      },
+      "name"
+    ],
+    42,
+    {
+      "notName": "value"
+    }
+  ],
+  "mapLike": {
+    "1": {
+      "title": "string value"
+    },
+    "2": {
+      "name": 1234
+    },
+    "3": [
+      "name",
+      {
+        "title": "ok"
+      }
+    ]
+  },
+  "edge_cases": {
+    "title": "",
+    "name_with_space ": "value",
+    "": "empty key",
+    "name\t": "tabbed key",
+    "name\n": "newline key"
+  }
+}
